@@ -1,0 +1,8 @@
+
+import matplotlib.pyplot as plt
+
+plt.plot(train_score)
+plt.plot(test_score)
+plt.xlabel('epoch')
+plt.ylabel('accuracy')
+plt.show()
